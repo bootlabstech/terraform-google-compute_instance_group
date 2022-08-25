@@ -31,7 +31,6 @@ variable "named_port_name_port" {
 variable "instances" {
   type        = list(string)
   description = "The list of instances in the group, in self_link format. When adding instances they must all be in the same network and zone as the instance group."
-  default     = []
 }
 variable "enable_named_port" {
   type        = bool
